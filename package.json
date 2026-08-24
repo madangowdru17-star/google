@@ -5,7 +5,12 @@
     "main": "api/index.js",
     "scripts": {
         "dev": "vercel dev",
+        "build": "echo 'No build required'",
+        "start": "node api/index.js",
         "deploy": "vercel deploy --prod"
     },
-    "dependencies": {}
+    "dependencies": {},
+    "devDependencies": {
+        "@vercel/node": "^2.15.10"
+    }
 }

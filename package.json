@@ -1,0 +1,11 @@
+{
+    "name": "hex-proxy-api",
+    "version": "1.0.0",
+    "description": "HEX PROXY XOS V6 Administration API",
+    "main": "api/index.js",
+    "scripts": {
+        "dev": "vercel dev",
+        "deploy": "vercel deploy --prod"
+    },
+    "dependencies": {}
+}
